@@ -1,0 +1,8 @@
+a = input("Введите предложение: ")
+a1 = ""
+for i in range(len(a)):
+  if i % 2 == 0:
+    a1 += a[i]
+  else:
+    a1 += "ы"
+print(a1)
